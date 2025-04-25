@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    border-radius: border-box;
+
+}
+body{
+    height: 100vh;
+    background-color:  hsl(237, 40%, 10%);
+    place-content: center;
+}
+
+div{
+    box-sizing: border-box;
+    background-color: hsl(237, 50%, 20%);
+    border-radius: 10px;
+    width: 400px;
+    padding: 20px;
+    margin: auto;
+}
+p{
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+}
+
+img#control, img.reset{
+    width: 3rem;          /* 50 px because root is 10 px */
+    height: 3rem;         /* keep 1:1 so they match  */
+    flex: 0 0 5rem;       /* reserve the same space in the row */
+    object-fit: contain; 
+    cursor: pointer;
+    transition: transform 0.25s;
+    user-select: none;
+
+}
+
+
+
+
